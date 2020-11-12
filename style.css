@@ -21,6 +21,13 @@
   visibility: visible;
 } */
 
+.main_menu > li:hover, .main_menu > li > a:hover{
+  color: #08bf5b;
+}
+.sub_menu > li > a:hover{
+  color:  #7bdaa5;
+}
+
 .main_menu > li:hover .sub_menu{
   opacity: 1;
   visibility: visible;
@@ -41,6 +48,7 @@
   text-align: center;
   margin: 1em;
 }
+
 
 .menu_link , .submenu_link{
   display: block;
